@@ -223,7 +223,7 @@ function M.update(state)
       label(match, match.end_pos, after, true)
     end
     if match.label and before then
-      -- label(match, match.pos, before, false)
+      label(match, match.pos, before, false)
     end
   end
 
