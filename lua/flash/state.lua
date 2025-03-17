@@ -11,6 +11,8 @@ local Prompt = require("flash.prompt")
 local Rainbow = require("flash.rainbow")
 local Search = require("flash.search")
 local Util = require("flash.util")
+local UtilLCG = require("flash.utillcg")
+
 
 ---@class Flash.State.Config: Flash.Config
 ---@field matcher? fun(win: window, state:Flash.State, pos: {from:Pos, to:Pos}): Flash.Match[]
@@ -142,7 +144,8 @@ end
 function M:jump(target)
   local match ---@type Flash.Match?
   if type(target) == "string" then
-    match = self:find({ label = target })
+    --match = self:find({ label = target })
+    match = self:find({ label = target ,able_aimtwo=true})
   elseif target and target.end_pos then
     match = target
   elseif target then
@@ -150,7 +153,18 @@ function M:jump(target)
   else
     match = self.target
   end
-  if match then
+  -- if match then
+  --   if self.opts.action then
+  --     self.opts.action(match, self)
+  --   else
+  --     Jump.jump(match, self)
+  --     Jump.on_jump(self)
+  --   end
+  --   return match
+  -- end
+
+  if match and not self.onlytwo then
+    -- 原有逻辑
     if self.opts.action then
       self.opts.action(match, self)
     else
@@ -159,6 +173,51 @@ function M:jump(target)
     end
     return match
   end
+
+  -- 从最后2项中最终命中
+  if self.modelsp == 1  and match and self.onlytwo and self.aim_final then
+    if self.opts.action then
+      self.opts.action(match, self)
+    else
+      Jump.jump(match, self)
+      Jump.on_jump(self)
+    end
+    return match
+  end
+
+  if self.modelsp == 1 then
+    -- 为最后2项指定label
+    if match and self.onlytwo then
+      match.label = "s"
+      self.count_onlytwo_tmp = 1
+      if match == self.onlytwoitems[1] then
+        self.onlytwoitems[2].label =   self.onlytwoitems[2].label:lower()
+        self.modelsimulate_step = 0
+        self.modelsimulate_another_key = self.onlytwoitems[2].label
+      else 
+        self.onlytwoitems[1].label =   self.onlytwoitems[1].label:lower()
+        self.modelsimulate_step = 1 
+        self.modelsimulate_another_key = self.onlytwoitems[1].label
+      end
+      
+      if self.modelspautojump then
+        self.modelsimulate = self.onlytwoitems
+        Jump.jump(match, self)
+        Jump.on_jump(self)
+        return match
+      end 
+
+      if self.opts.action then
+        -- self.opts.action(match, self)
+      else
+        -- Jump.jump(match, self)
+        -- Jump.on_jump(self)
+      end
+      -- return match
+    end
+
+  end
+
 end
 
 -- Will restore all window views
@@ -175,13 +234,73 @@ end
 
 ---@param opts? Flash.Match.Find | {label?:string, pos?: Pos}
 function M:find(opts)
+  -- if opts and opts.label then
+  --   for _, m in ipairs(self.results) do
+  --     if m.label == opts.label then
+  --       return m
+  --     end
+  --   end
+  --   return
+  -- end
+
   if opts and opts.label then
+     if not self.onlytwo then
+        self.onlytwoitems={}
+     end
+     local target_lower =  opts.label and   opts.label:lower() or ""
+     local target_islower = target_lower == opts.label
+     local count_aim = 0
+     local m_aim = nil
     for _, m in ipairs(self.results) do
-      if m.label == opts.label then
-        return m
-      end
+        local chars = vim.fn.strchars(m.label)
+        local label_lower = m.label and m.label:lower() or ""
+        local label_islower = label_lower == m.label
+
+        if self.modelsp == 1 and label_lower == target_lower and target_lower ~= "" then
+          count_aim =count_aim + 1
+          if not self.onlytwo then
+            table.insert(self.onlytwoitems, m)
+          end
+          if m_aim == nil then
+            m_aim = m
+          elseif (label_islower == true) then
+            -- 优先命中小写的label
+            m_aim = m
+          end
+ 
+          if target_islower == false and label_islower == false then
+            if self.onlytwo then
+              self.aim_final = true
+            end
+            return m
+          end
+          if count_aim == 2 then
+            if opts.able_aimtwo then
+              -- 重复按相同键位或者按指定切换键位进行切换
+              self.onlytwo = true
+              return m_aim
+            end
+
+            -- 提前返回,已命中且只存在最后2个可选择切换项,后面的比较无意义
+            return 
+          end
+        else
+          -- 原有逻辑
+          if m.label == opts.label then
+            return m
+          end
+
+        end
     end
-    return
+
+    if count_aim == 1 and m_aim ~= nil then
+      if self.onlytwo then
+        self.aim_final = true
+      end
+      return m_aim
+    end
+
+    return 
   end
 
   opts = Matcher.defaults({
@@ -189,9 +308,10 @@ function M:find(opts)
     wrap = self.opts.search.wrap,
   }, opts)
 
+
   local matcher = self:get_matcher(self.win)
   local ret = matcher:find(opts)
-
+  -- Util.log("get_matcher",{opts,ret,self.results})
   if ret then
     for _, m in ipairs(self.results) do
       if m.pos == ret.pos and m.end_pos == ret.end_pos then
@@ -213,12 +333,20 @@ function M:check_jump(pattern)
     return
   end
   local chars = vim.fn.strchars(pattern)
+
   if pattern:find(self.pattern(), 1, true) == 1 and chars == vim.fn.strchars(self.pattern()) + 1 then
     local label = vim.fn.strcharpart(pattern, chars - 1, 1)
     if self:jump(label) then
       return true
     end
   end
+
+  -- if pattern:find(self.pattern(), 1, true) == 2 and chars == vim.fn.strchars(self.pattern()) + 1 then
+  --   local label = vim.fn.strcharpart(pattern, chars - 1, 1)
+  --   if self:jump(label) then
+  --     return true
+  --   end
+  -- end
 end
 
 ---@param opts? {pattern:string, force:boolean, check_jump:boolean}
@@ -231,16 +359,39 @@ function M:update(opts)
     if opts.check_jump ~= false and self:check_jump(opts.pattern) then
       return true
     end
-    self.pattern:set(opts.pattern)
+
+    -- self.pattern:set(opts.pattern)
+
+    if  self.modelsp == 1 and self.count_onlytwo_tmp == 1 and self.onlytwo then
+      self.count_onlytwo_tmp = 2
+      -- 仅过滤到最后2项的时候不设置新的匹配项,其他情况照旧
+      -- self.pattern:set(opts.pattern_orig)
+    else 
+      self.pattern:set(opts.pattern)
+    end
+
   end
 
   if not self.visible then
     return
   end
 
-  if self.cache:update() or opts.force then
-    self:_update()
+
+  -- if self.cache:update() or opts.force then
+  --   self:_update()
+  -- end
+  if  self.modelsp == 1 and self.count_onlytwo_tmp == 2 and self.onlytwo then
+    self.count_onlytwo_tmp = 3
+    if self.cache:update({forceflush=true}) or opts.force then
+      self:_update()
+    end
+  else
+    -- 原有逻辑
+    if self.cache:update() or opts.force then
+      self:_update()
+    end
   end
+
 end
 
 function M:hide()
@@ -267,6 +418,7 @@ function M:_update()
     Hacks.save_incsearch_state()
   end
 
+  local lastres = self.results
   self.results = {}
   local done = {} ---@type table<string, boolean>
   ---@type Flash.Matcher[]
@@ -275,11 +427,14 @@ function M:_update()
     local buf = vim.api.nvim_win_get_buf(win)
     matchers[win] = self:get_matcher(win)
     local state = self.cache:get_state(win)
+
     for _, m in ipairs(state and state.matches or {}) do
       local id = m.pos:id(buf) .. m.end_pos:id(buf)
+        -- Util.log("zxcvvxv",id,"")
       if not done[id] then
         done[id] = true
         table.insert(self.results, m)
+        --Util.log("vvxxxvvv",self.results,"")
       end
     end
   end
@@ -359,6 +514,7 @@ function M:step(opts)
     return
   elseif actions[c] then
     local ret = actions[c](self, c)
+
     if ret == nil then
       return true
     end
@@ -370,6 +526,7 @@ function M:step(opts)
   end
 
   local orig = self.pattern()
+  self.pattern_orig = orig
 
   -- break if we jumped
   if self:update({ pattern = self.pattern:extend(c) }) then
@@ -394,7 +551,7 @@ function M:step(opts)
     end
     return
   end
-
+  --self.opts.jump.autojump = true
   -- autojump if only one result
   if #self.results == 1 and self.opts.jump.autojump then
     self:jump()
@@ -408,6 +565,33 @@ function M:loop(opts)
   while self:step(opts) do
   end
   self:hide()
+  -- Prompt.hide()
+  if self.modelsp == 1 and self.onlytwo and self.modelsimulate then
+    -- 默认选中一个，另外的则若再次输入,则切换光标位置,此时只有s键和目标label可以使用,
+    -- 若其他按键则退出,且当作在普通模式的一次输入
+    -- 因此若想要再次进入s的选择状态，需要按下其他键列如同时按下jk
+    Prompt.set("current in flash tmp switch model,please press [" .. self.modelsimulate_another_key .. "] to switch to another label by you last selected one,or other key to use like as normal model",true)
+    while true do
+      local c = self:get_char()
+      Util.log("input key", {c})
+      -- if not (c == "s" or c == self.modelsimulate_another_key)then
+      if not (c == self.modelsimulate_another_key)then
+        Prompt.hide()
+        if c == nil then
+          vim.api.nvim_input("<esc>")
+          return
+        end
+        vim.api.nvim_input(c)
+        return
+      end
+      self.modelsimulate_step = self.modelsimulate_step + 1
+      local match = self.modelsimulate[self.modelsimulate_step%2+1]
+      -- Util.log("sw cursor", {match,self.modelsimulate,self.modelsimulate_step%2+1})
+      Jump.jump(match, self)
+      Jump.on_jump(self)
+    end
+  end
+
   Prompt.hide()
 end
 

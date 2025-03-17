@@ -12,6 +12,8 @@ function M.setup()
       FlashBackdrop = { fg = "#545c7e" },
       FlashCurrent = { bg = "#ff966c", fg = "#1b1d2b" },
       FlashLabel = { bg = "#ff007c", bold = true, fg = "#c8d3f5" },
+      -- FlashLabel_Underline = { bg = "#ff007c", bold = true, fg = "#FFD700" },
+      FlashLabel_Underline = {underline= true, bg = "#ff007c", bold = true, fg = "#c8d3f5" },
       FlashMatch = { bg = "#3e68d7", fg = "#c8d3f5" },
       FlashCursor = { reverse = true },
     }
@@ -25,6 +27,10 @@ function M.setup()
       FlashMatch = "Search",
       FlashCurrent = "IncSearch",
       FlashLabel = "Substitute",
+      FlashLabel_Underline = "Substitute",
+      -- 暂时未实现，主要是我也不知道这里咋使用(原本打算加下划线的)
+      -- `Substitute`在哪定义的，总不可能是nvim自带的吧...
+      -- 照猫画虎填写了links里面的发现在我环境勉强也能用(前景色发生了变化)，就暂时没管这里了 
       FlashPrompt = "MsgArea",
       FlashPromptIcon = "Special",
       FlashCursor = "Cursor",
@@ -53,6 +59,7 @@ function M.backdrop(state)
     -- we need to create a backdrop for each line because of the way
     -- extmarks priority rendering works
     for line = from[1], to[1] do
+      -- require("flash.util").log("yyyxxx",match,"")
       vim.api.nvim_buf_set_extmark(buf, state.ns, line - 1, line == from[1] and from[2] or 0, {
         hl_group = state.opts.highlight.groups.backdrop,
         end_row = line == to[1] and line - 1 or line,
@@ -96,10 +103,13 @@ function M.update(state)
     style = "overlay"
   end
 
+
   local after = state.opts.label.after
+  -- after = false
   after = after == true and { 0, 1 } or after
   ---@cast after number[]
   local before = state.opts.label.before
+  --before = true
   before = before == true and { 0, -1 } or before
   ---@cast before number[]
 
@@ -127,6 +137,8 @@ function M.update(state)
     if cursor[1] == row + 1 and cursor[2] == col and match.win == state.win and state.opts.jump.pos ~= "range" then
       return
     end
+
+    
     if match.fold then
       -- set the row to the fold start
       row = match.fold - 1
@@ -157,21 +169,34 @@ function M.update(state)
       })
     else
       -- else highlight the label
+      -- row = 9
+      --col = 5
       local key = buf .. ":" .. row .. ":" .. col
       extmarks[key] = extmarks[key] or { buf = buf, row = row, col = col, text = {} }
+     
+
+     
       local text = state.opts.label.format({
         state = state,
         match = match,
         hl_group = hl_group,
         after = is_after,
       })
+
+      require("flash.util").log("xqwexx",text,"")
+      -- require("flash.util").log("xxx",text[i],"")
+      --text.is_after = false
+      -- text.state = "x"
       for i = #text, 1, -1 do
+        -- table.insert(extmarks[key].text, 1, text[i])
         table.insert(extmarks[key].text, 1, text[i])
       end
+      -- require("flash.util").log("xxx",text[i],"")
     end
   end
 
   for _, match in ipairs(state.results) do
+    
     local buf = vim.api.nvim_win_get_buf(match.win)
 
     local highlight = state.opts.highlight.matches
@@ -180,6 +205,7 @@ function M.update(state)
     end
 
     if highlight then
+      -- require("flash.util").log("xxx",match,"")
       vim.api.nvim_buf_set_extmark(buf, state.ns, match.pos[1] - 1, match.pos[2], {
         end_row = match.end_pos[1] - 1,
         end_col = match.end_pos[2] + 1,
@@ -193,20 +219,61 @@ function M.update(state)
 
   for _, match in ipairs(state.results) do
     if match.label and after then
+      -- require("flash.util").log("qqqqxxx",match,"")
       label(match, match.end_pos, after, true)
     end
     if match.label and before then
-      label(match, match.pos, before, false)
+      -- label(match, match.pos, before, false)
     end
   end
 
   for _, extmark in pairs(extmarks) do
-    vim.api.nvim_buf_set_extmark(extmark.buf, state.ns, extmark.row, extmark.col, {
-      virt_text = extmark.text,
-      virt_text_pos = style,
-      strict = false,
-      priority = state.opts.highlight.priority + 2,
-    })
+    if state.modelsp == 1 then
+          -- require("flash.util").log("xxx",extmark.text[1],"")
+          require("flash.util").log("xxx",extmark,"")
+          local isupper =false
+          if  extmark.text[1] ~= nil then
+            if  extmark.text[1][2] == "FlashLabel" then 
+              local upper = extmark.text[1][1]:upper()
+              isupper = upper == extmark.text[1][1]
+              extmark.text[1][1] = upper
+              if isupper then
+                -- 替换样式
+                extmark.text[1][2] = "FlashLabel_Underline" 
+              end
+            end
+          end
+
+          if isupper then
+            -- 原本大写的则采用其他表现手法,如加框包围或者换背景色
+            -- todo 目前段代码无意义,暂时不删除这段吧，万一之后要用到
+            vim.api.nvim_buf_set_extmark(extmark.buf, state.ns, extmark.row, extmark.col, {
+              virt_text = extmark.text,
+              virt_text_pos = style,
+              strict = false,
+              -- end_line = extmark.row,
+              -- end_col =  extmark.col+1,
+              -- hl_group = 'Underline',
+              priority = state.opts.highlight.priority + 2,
+            })
+          else 
+            vim.api.nvim_buf_set_extmark(extmark.buf, state.ns, extmark.row, extmark.col, {
+              virt_text = extmark.text,
+              virt_text_pos = style,
+              strict = false,
+              priority = state.opts.highlight.priority + 2,
+            })
+          end
+    else
+      -- 原有逻辑
+      vim.api.nvim_buf_set_extmark(extmark.buf, state.ns, extmark.row, extmark.col, {
+        virt_text = extmark.text,
+        virt_text_pos = style,
+        strict = false,
+        priority = state.opts.highlight.priority + 2,
+      })
+    end
+    
   end
 
   M.cursor(state)

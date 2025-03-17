@@ -44,6 +44,13 @@ function M:reset()
   local skip = {} ---@type table<string, boolean>
   self.labels = {}
 
+  if self.state.modelsp == 1 then
+    if self.state.onlytwo then
+      self.labels = { self.state.onlytwoitems[1].label, self.state.onlytwoitems[2].label}
+      return
+    end
+  end
+
   for _, l in ipairs(self.state:labels()) do
     if not skip[l] then
       self.labels[#self.labels + 1] = l
@@ -219,6 +226,11 @@ function M:skip(win, labels)
       end
     end
   end)
+  if self.state.modelsp == 1 then
+      --labels = {"Q","W","E","R","D","F","C","Z","X","C"}
+      labels = {"q","w","e","r","d","f","z","x","c","Q","W","E","R","D","F","C","Z","X","C"}
+  end
+
   return labels
 end
 

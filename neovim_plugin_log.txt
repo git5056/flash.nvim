@@ -1,0 +1,3256 @@
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "x",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "x",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "x",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "x",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "x",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "x",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 16,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 14, 16,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 16, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 16, 25,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 16, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 16, 25,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 16, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 16, 25,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 16, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 16, 25,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 16, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 16, 25,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 16, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 16, 25,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 16, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 16, 25,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 16, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 16, 25,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 32, 15,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 7, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 7, 19,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 10, 2,
+        <metatable> = <table 1>
+      },
+      label = "q",
+      pos = { 10, 2,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 7, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 7, 19,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 10, 2,
+        <metatable> = <table 1>
+      },
+      label = "q",
+      pos = { 10, 2,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 7, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 7, 19,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 10, 2,
+        <metatable> = <table 1>
+      },
+      label = "q",
+      pos = { 10, 2,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 7, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 7, 19,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    }, {
+      end_pos = { 10, 2,
+        <metatable> = <table 1>
+      },
+      label = "q",
+      pos = { 10, 2,
+        <metatable> = <table 1>
+      },
+      win = 1007
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "r",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "r",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 3, 6,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 3, 6,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 26, 17,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 5, 3,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "c",
+      pos = { 5, 3,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 5, 3,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "c",
+      pos = { 5, 3,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 5, 3,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "c",
+      pos = { 5, 3,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 5, 3,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "c",
+      pos = { 5, 3,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 5, 3,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "c",
+      pos = { 5, 3,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 5, 3,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "c",
+      pos = { 5, 3,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 7, 2,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 25,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 24, 36,
+        <metatable> = <table 1>
+      },
+      label = "x",
+      pos = { 24, 36,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 25,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 24, 36,
+        <metatable> = <table 1>
+      },
+      label = "x",
+      pos = { 24, 36,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 25,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 24, 36,
+        <metatable> = <table 1>
+      },
+      label = "x",
+      pos = { 24, 36,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 6, 25,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 6, 25,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 24, 36,
+        <metatable> = <table 1>
+      },
+      label = "x",
+      pos = { 24, 36,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 14, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "d",
+      pos = { 14, 19,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 14, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "d",
+      pos = { 14, 19,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 14, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 14, 19,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 14, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 14, 19,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 14, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 14, 19,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 14, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 14, 19,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 14, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 14, 19,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 14, 19,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 14, 19,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      label = "s",
+      pos = { 23, 82,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 22, 88,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 22, 87,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    }, {
+      end_pos = { 26, 54,
+        <metatable> = <table 1>
+      },
+      label = "e",
+      pos = { 26, 53,
+        <metatable> = <table 1>
+      },
+      win = 1038
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 7, 0,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 7, 0,
+        <metatable> = <table 1>
+      },
+      win = 1052
+    }, {
+      end_pos = { 24, 16,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 24, 16,
+        <metatable> = <table 1>
+      },
+      win = 1052
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 7, 0,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 7, 0,
+        <metatable> = <table 1>
+      },
+      win = 1052
+    }, {
+      end_pos = { 24, 16,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 24, 16,
+        <metatable> = <table 1>
+      },
+      win = 1052
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 7, 0,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 7, 0,
+        <metatable> = <table 1>
+      },
+      win = 1052
+    }, {
+      end_pos = { 24, 16,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 24, 16,
+        <metatable> = <table 1>
+      },
+      win = 1052
+    } }
+}
+str:
+qwe:	obj:{
+  matches = { {
+      end_pos = { 7, 0,
+        <metatable> = <1>{
+          __add = <function 1>,
+          __eq = <function 2>,
+          __index = <function 3>,
+          __le = <function 4>,
+          __lt = <function 5>,
+          __newindex = <function 6>,
+          __sub = <function 7>,
+          __tostring = <function 8>,
+          dist = <function 9>,
+          id = <function 10>,
+          new = <function 11>,
+          <metatable> = {
+            __call = <function 12>
+          }
+        }
+      },
+      label = "s",
+      pos = { 7, 0,
+        <metatable> = <table 1>
+      },
+      win = 1052
+    }, {
+      end_pos = { 24, 16,
+        <metatable> = <table 1>
+      },
+      label = "d",
+      pos = { 24, 16,
+        <metatable> = <table 1>
+      },
+      win = 1052
+    } }
+}
+str:

@@ -6,6 +6,8 @@ local M = {}
 ---@param opts? Flash.State.Config|{}
 function M.jump(opts)
   local state = Repeat.get_state("jump", opts)
+  state.modelsp =1
+  state.modelspautojump = true
   state:loop()
   return state
 end

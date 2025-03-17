@@ -7,8 +7,10 @@ local M = {}
 ---@field ns? string
 ---@field config? fun(opts:Flash.Config)
 local defaults = {
-  -- labels = "abcdefghijklmnopqrstuvwxyz",
-  labels = "asdfghjklqwertyuiopzxcvbnm",
+  labels = "abcdefghijklmnopqrstuvwxyz",
+  -- labels = "asdfghjklqwertyuiopzxcvbnm",
+  -- labels = "fghjklqweruiopzxcnm",
+  -- labels = "asdfqwerzxc",
   search = {
     -- search/jump in all windows
     multi_window = true,

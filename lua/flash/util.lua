@@ -7,6 +7,21 @@ function M.t(str)
   return vim.api.nvim_replace_termcodes(str, true, true, true)
 end
 
+function M.log(prefix,obj,str)
+  return
+    str = str or ""
+    local formatted_output = vim.inspect(obj) 
+    local log_file = io.open("d:/logs/neovim_plugin_log.txt", "a") -- 打开文件用于追加
+    if log_file then
+        -- log_file:write("这是一条日志信息\n") -- 写入日志信息
+    local sp2 = vim.inspect(target_islower)  
+        log_file:write(prefix .. ":\tobj:"  .. formatted_output .. "\nstr:" .. str  .. "\n") -- 写入日志信息
+        log_file:close() -- 关闭文件
+    else
+        print("无法打开日志文件")
+    end
+end
+
 M.CR = M.t("<cr>")
 M.ESC = M.t("<esc>")
 M.BS = M.t("<bs>")

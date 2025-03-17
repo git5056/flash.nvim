@@ -7,3 +7,4 @@
 foo.*
 node_modules
 tt.*
+neovim_plugin_log.txt

@@ -29,10 +29,10 @@ function M.new(state)
 end
 
 ---@return boolean dirty Returns true when dirty
-function M:update()
+function M:update(opt)
   local dirty = false
-
-  if self.pattern ~= self.state.pattern then
+  local flush =  opt and opt.forceflush and true or false
+  if flush or self.pattern ~= self.state.pattern then
     self.pattern = self.state.pattern:clone()
     dirty = true
     M.cache = {}
@@ -63,6 +63,24 @@ function M:get_state(win)
   if not window then
     return
   end
+
+  local onlytwo = self.state.onlytwo
+  if self.state.modelsp == 1 and self.state.onlytwo then
+    M.cache[window] ={matches={} } 
+    require("flash.util").log("qwe", {win,window,self.state.onlytwoitems} )
+    for _, m in ipairs(self.state.onlytwoitems) do
+      if m.win == window.win then
+        table.insert(M.cache[window].matches, 1, m)
+      end 
+    end
+    --[[ 
+    M.cache[window] = {
+      matches = self.state.onlytwoitems,
+    } ]]
+
+    require("flash.util").log("qwe", M.cache[window] )
+  end
+
   if M.cache[window] then
     return M.cache[window]
   end
@@ -86,6 +104,7 @@ function M:get_state(win)
   M.cache[window] = {
     matches = matcher:get({ from = from, to = to }),
   }
+
   return M.cache[window]
 end
 
