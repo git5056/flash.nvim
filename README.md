@@ -1,5 +1,12 @@
 # ⚡flash.nvim
 
+个人自用，些许修改
+1.仅在一般的搜索模式下,添加大小写label的切换，所有label均采用大写的形式显示,
+  当剩余最后2个如Aa的Label时候,默认跳转到a,此时再次键入a则进行切换,
+  目的是为了减少shift的使用。
+2.修改有些粗糙,有些细节没有处理,可能还需要修改,我个人将就用了
+
+
 `flash.nvim` lets you navigate your code with search labels,
 enhanced character motions, and Treesitter integration.
 
