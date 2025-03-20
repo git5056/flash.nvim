@@ -64,27 +64,64 @@ function M:get_state(win)
     return
   end
 
-  local onlytwo = self.state.onlytwo
   if self.state.modelsp == 1 and self.state.onlytwo then
     M.cache[window] ={matches={} } 
-    require("flash.util").log("qwe", {win,window,self.state.onlytwoitems} )
+    -- require("flash.util").log("qwe", {win,window,self.state.onlytwoitems} )
     for _, m in ipairs(self.state.onlytwoitems) do
       if m.win == window.win then
         table.insert(M.cache[window].matches, 1, m)
       end 
     end
+    return M.cache[window]
     --[[ 
     M.cache[window] = {
       matches = self.state.onlytwoitems,
     } ]]
 
-    require("flash.util").log("qwe", M.cache[window] )
+    -- require("flash.util").log("qwe", M.cache[window] )
   end
 
-  if M.cache[window] then
+
+  if not ((self.state.modelsp or 0 )  > 0 ) then 
+        --  require("flash.util").log("xxyy",{},"")
+    -- 原有逻辑
+    if M.cache[window] then
+      return M.cache[window]
+    end
+  end
+ 
+  if self.state.modelsp == 1 then 
+  --  require("flash.util").log("zxcx123xxx",{},"")
+   if M.cache[window] then
+    if self.state.modelsp_matchers and self.state.modelsp_matchers[window] then
+        --  require("flash.util").log("xqq3xxxxxx",{},"")
+        local matches = M.cache[window].matches 
+        local to_remove = {}
+        local buf = ""
+        -- local buf =window
+        for i, m in ipairs(matches) do
+          local id = m.pos:id(buf) 
+          -- .. m.end_pos:id(buf)
+          -- require("flash.util").log("xxxxxxx",id,"")
+          local tmpm = self.state.modelsp_matchers_map[window][id] 
+          if not self.state.modelsp_matchers_map[window][id] then
+            table.insert(to_remove, i)
+          else 
+            if tmpm.modelsp_step >= 1 and tmpm.modelsp_step < self.state.modelsp_step then
+              table.insert(to_remove, i)
+              -- require("flash.util").log("yyyyy",{self.state.modelsp_step, tmpm},"")
+            end
+          end 
+        end
+        for i = #to_remove, 1, -1 do
+          table.remove(matches, to_remove[i])
+        end
+    end
     return M.cache[window]
   end
+end
 
+ 
   local from = Pos({ window.topline, 0 })
   local to = Pos({ window.botline + 1, 0 })
 
@@ -104,6 +141,58 @@ function M:get_state(win)
   M.cache[window] = {
     matches = matcher:get({ from = from, to = to }),
   }
+  
+  if self.state.modelsp == 1 then
+    local cached = false
+    if self.state.modelsp_matchers == nil then
+      self.state.modelsp_matchers = {}
+      self.state.modelsp_matchers_map = {}
+      self.state.modelsp_matchers_allmap = {}
+      self.state.modelsp_step = 1
+    end
+     if self.state.modelsp_matchers[window] == nil then
+      cached = true
+      self.state.modelsp_matchers[window] = M.cache[window].matches 
+      -- self.state.modelsp_matchers [window] = {} 
+      self.state.modelsp_matchers_map [window]= {} 
+      -- local buf =window
+        local buf = ""
+        local buf2 = vim.api.nvim_win_get_buf(win)
+      for _, m in ipairs(self.state.modelsp_matchers[window]) do
+        m.modelsp_step = self.state.modelsp_step 
+       local id = m.pos:id(buf) 
+        --  .. m.end_pos:id(buf)
+       self.state.modelsp_matchers_map[window][id] = m 
+       id = m.pos:id(buf2) 
+       self.state.modelsp_matchers_allmap[id] = m
+      end
+     end
+    
+    if cached == false and self.state.modelsp_matchers and self.state.modelsp_matchers[window] then
+        local matches = M.cache[window].matches 
+        local to_remove = {}
+        local buf = ""
+        -- local buf =window
+        for i, m in ipairs(matches) do
+          local id = m.pos:id(buf) 
+          -- .. m.end_pos:id(buf)
+          local tmpm = self.state.modelsp_matchers_map[window][id] 
+          -- require("flash.util").log("xxxxxxx",{id,(tmpm or {}).modelsp_step,self.state.modelsp_step},"")
+          if not self.state.modelsp_matchers_map[window][id] then
+            table.insert(to_remove, i)
+          else 
+            if tmpm.modelsp_step >= 1 and tmpm.modelsp_step < self.state.modelsp_step then
+              table.insert(to_remove, i)
+              -- require("flash.util").log("kkkkkk",{self.state.modelsp_step, tmpm},"")
+            end
+          end 
+        end
+        for i = #to_remove, 1, -1 do
+          table.remove(matches, to_remove[i])
+        end
+    end
+    
+  end
 
   return M.cache[window]
 end

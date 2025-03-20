@@ -46,6 +46,7 @@ function M.update(check_jump)
     return
   end
 
+     require("flash.util").log("zxcqwe123", {})
   local pattern = vim.fn.getcmdline()
 
   -- when doing // or ??, get the pattern from the search register

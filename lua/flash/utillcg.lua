@@ -1,4 +1,4 @@
--- ai 生成的,简单用一下。因为默认的math的貌似不能随意设置随机种子。可能是我没找到
+-- 简单用一下。因为默认的math的貌似不能随意设置随机种子。可能是我没找到
 -- 线性同余法生成器
 local LCG = {}
 LCG.__index = LCG
@@ -33,6 +33,9 @@ function LCG:nextint(maxnum)
 end
 
 function LCG.dotest()
+  return
+end
+function LCG.dotest2()
   
   -- -- 使用示例
   local lcg = LCG.new(123456789, 1664525, 1013904223, 4294967296) -- 使用一个大质数作为模数 m
@@ -40,6 +43,32 @@ function LCG.dotest()
    require("flash.util").log("xx",{lcg:nextint(100)},"")
    print(lcg:next(100)) -- 打印接下来的10个随机数
   end
+
+  local arr ={1,2,3,4,5,6,7,8,9,10}
+  local arr_used ={}
+  for i = 1, #arr do
+    local idx = lcg:nextint(#arr-i)
+    local idx0=idx
+    idx=idx+1
+    local idx2 = idx
+--[[     while arr_used[idx2] ~= nil do 
+     if arr_used[idx] then
+      idx2 = arr_used[idx] 
+     end 
+    end
+ ]]
+    
+    arr_used[idx2] = idx2+1
+    --[[ if arr_used[idx2+1] then
+      arr_used[idx2] = arr_used[idx2+1]
+    else
+      arr_used[idx2] = idx2+1
+    end ]]
+
+    require("flash.util").log("qqqxx",{"这是第" .. i .. "次循环:" .. idx0 ..":".. idx2 ..":".. (arr[idx2] or "a") .. "\n"})
+    -- print("这是第" .. i .. "次循环:" .. arr[idx2] .. "\n")
+end
+
 end
 
 return LCG

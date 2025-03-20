@@ -8,8 +8,10 @@ function M.t(str)
 end
 
 function M.log(prefix,obj,str)
---[[ 
-    str = str or ""
+local b = true
+b = false
+if b then 
+  str = str or ""
     local formatted_output = vim.inspect(obj) 
     local log_file = io.open("d:/logs/neovim_plugin_log.txt", "a") -- 打开文件用于追加
     if log_file then
@@ -19,7 +21,9 @@ function M.log(prefix,obj,str)
         log_file:close() -- 关闭文件
     else
         print("无法打开日志文件")
-    end ]]
+    end
+end
+  
 end
 
 M.CR = M.t("<cr>")

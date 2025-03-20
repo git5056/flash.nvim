@@ -8,7 +8,7 @@ local M = {}
 ---@field config? fun(opts:Flash.Config)
 local defaults = {
   labels = "abcdefghijklmnopqrstuvwxyz",
-  -- labels = "asdfghjklqwertyuiopzxcvbnm",
+    -- labels = "asdfghjklqwertyuiopzxcvbnm",
   -- labels = "fghjklqweruiopzxcnm",
   -- labels = "asdfqwerzxc",
   search = {

@@ -183,7 +183,7 @@ function M.update(state)
         after = is_after,
       })
 
-      require("flash.util").log("xqwexx",text,"")
+      -- require("flash.util").log("xqwexx",text,"")
       -- require("flash.util").log("xxx",text[i],"")
       --text.is_after = false
       -- text.state = "x"
@@ -230,7 +230,7 @@ function M.update(state)
   for _, extmark in pairs(extmarks) do
     if state.modelsp == 1 then
           -- require("flash.util").log("xxx",extmark.text[1],"")
-          require("flash.util").log("xxx",extmark,"")
+          -- require("flash.util").log("xxx",extmark,"")
           local isupper =false
           if  extmark.text[1] ~= nil then
             if  extmark.text[1][2] == "FlashLabel" then 

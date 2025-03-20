@@ -242,11 +242,54 @@ function M:find(opts)
   --   end
   --   return
   -- end
-
+  
   if opts and opts.label then
      if not self.onlytwo then
         self.onlytwoitems={}
      end
+
+     if self.modelsp == 1 then
+        self.modelsp_s = false 
+        if opts.label == "a" and (self.modelsp_step or 0) > 1 then
+          for key, value in pairs(self.modelsp_matchers_allmap) do
+            if value.modelsp_step == self.modelsp_step then
+                value.modelsp_step = self.modelsp_step - 1
+                self.modelsp_s = true
+            end
+          end          
+
+          if self.modelsp_s then
+            self.modelsp_step = self.modelsp_step - 1 
+            return
+          end
+        end
+        if opts.label == "s" then
+        --  require("flash.util").log("qweqw",{},"")
+         local winmap ={} 
+         if #self.results > 0 then 
+          -- and #self.modelsp_matchers_allmap > 0 then
+        --  require("flash.util").log("2qweqw",{},"")
+            -- 需要排除的
+            for _, m in ipairs(self.results) do
+              -- require("flash.util").log("3qweqw",{},"")
+               local buf = winmap[m.win] or vim.api.nvim_win_get_buf(m.win)
+               winmap[m.win] = buf
+               id = m.pos:id(buf) 
+               local tmpm = self.modelsp_matchers_allmap[id] 
+               if m.label == nil and self.modelsp_matchers_allmap[id] then
+                --  if tmpm.modelsp_step ~= self.modelsp_step then
+                   tmpm.modelsp_step = tmpm.modelsp_step + 1 
+                  --  require("flash.util").log("aaaaaxxxxx",tmpm,"")
+                --  end
+               end 
+            end
+          self.modelsp_step = self.modelsp_step + 1
+          self.modelsp_s = true 
+          end 
+        return 
+        end
+     end
+
      local target_lower =  opts.label and   opts.label:lower() or ""
      local target_islower = target_lower == opts.label
      local count_aim = 0
@@ -354,6 +397,7 @@ end
 function M:update(opts)
   opts = opts or {}
 
+  local modelsp_s = false
   if opts.pattern then
     -- abort if pattern is a jump label
     if opts.check_jump ~= false and self:check_jump(opts.pattern) then
@@ -367,7 +411,14 @@ function M:update(opts)
       -- 仅过滤到最后2项的时候不设置新的匹配项,其他情况照旧
       -- self.pattern:set(opts.pattern_orig)
     else 
-      self.pattern:set(opts.pattern)
+      if self.modelsp == 1 and self.modelsp_s == true and (self.modelsp_inputkey == "s" or self.modelsp_inputkey == "a" ) then 
+       -- 排除某些选择项,故不进行set pattern  
+       modelsp_s = true
+      else
+        self.pattern:set(opts.pattern)
+      end 
+
+      -- self.pattern:set(opts.pattern)
     end
 
   end
@@ -376,13 +427,18 @@ function M:update(opts)
     return
   end
 
-
   -- if self.cache:update() or opts.force then
   --   self:_update()
   -- end
   if  self.modelsp == 1 and self.count_onlytwo_tmp == 2 and self.onlytwo then
     self.count_onlytwo_tmp = 3
     if self.cache:update({forceflush=true}) or opts.force then
+      self:_update()
+    end
+  elseif self.modelsp == 1 and modelsp_s then 
+    -- require("flash.util").log("jjjjjqwe", {})
+    if self.cache:update({forceflush=true}) or opts.force then
+      -- require("flash.util").log("lllqwe", {})
       self:_update()
     end
   else
@@ -427,7 +483,7 @@ function M:_update()
     local buf = vim.api.nvim_win_get_buf(win)
     matchers[win] = self:get_matcher(win)
     local state = self.cache:get_state(win)
-
+    -- Util.log("eeeeee",{state},"")
     for _, m in ipairs(state and state.matches or {}) do
       local id = m.pos:id(buf) .. m.end_pos:id(buf)
         -- Util.log("zxcvvxv",id,"")
@@ -503,6 +559,8 @@ function M:step(opts)
   end
   local actions = opts.actions or self.opts.actions or {}
   local c = self:get_char()
+  Util.log("char input", {c})
+  self.modelsp_inputkey = c
   if c == nil then
     vim.api.nvim_input("<esc>")
     if opts.restore ~= false then
@@ -573,14 +631,16 @@ function M:loop(opts)
     Prompt.set("current in flash tmp switch model,please press [" .. self.modelsimulate_another_key .. "] to switch to another label by you last selected one,or other key to use like as normal model",true)
     while true do
       local c = self:get_char()
-      Util.log("input key", {c})
+      Util.log("char input2", {c})
+      -- Util.log("input key", {c})
       -- if not (c == "s" or c == self.modelsimulate_another_key)then
-      if not (c == self.modelsimulate_another_key)then
+      if not (c == self.modelsimulate_another_key) then
         Prompt.hide()
         if c == nil then
           vim.api.nvim_input("<esc>")
           return
         end
+
         vim.api.nvim_input(c)
         return
       end
