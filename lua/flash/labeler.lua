@@ -276,7 +276,16 @@ function M:filter()
       return aw < bw
     end
     -- 计算相距当前光标的距离，从近及远(曼哈顿距离)
+    -- 优先当前光标同一行的项，顺序从左及右(目的是用来替代f快捷键查询当前行的字符)
      if (theself.state.modelsp == 1) and use_distance  then
+      if a.pos[1] == b.pos[1] and a.pos[1] == from[1] then
+        return a.pos[2] < b.pos[2]
+      end 
+      if a.pos[1] == from[1] then
+        return true
+      elseif b.pos[1] == from[1] then
+        return false
+      end
     -- if (theself.modellabel or 0) > 0 and use_distance then
      local da = math.abs( from[1] - a.pos[1]) + math.abs(from[2] - a.pos[2]) 
      local db = math.abs( from[1] - b.pos[1]) + math.abs(from[2] - b.pos[2]) 
